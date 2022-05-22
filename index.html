@@ -18,6 +18,7 @@
       href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
       rel="stylesheet"
     />
+    <!--CSS-->
     <link rel="stylesheet" href="./assets/css/style.css" />
 
     <title>Work Day Scheduler</title>
@@ -32,65 +33,70 @@
       <div id="dateTime"></div>
     </header>
     <div class="container">
+      <div class="present"></div>
+      <div class="past"></div>
+      <div class="future"></div>
+      <div class="hour"></div>
       <!-- Timeblocks go here -->
       <!--9am-->
       <div class="row time-block" id="9">
         <div class="col-1 hour pt-2">9AM</div>
-        <textarea class="col-10 plan" id="scheduleInput"></textarea>
-        <button class="col-1 saveBtn">save</button>
+        <textarea class="col-10 plan" id="9"></textarea>
+        <button class="col-1 saveBtn" onclick="saveText(9)">save</button>
       </div>
       <!--10am-->
       <div class="row time-block" id="10">
         <div class="col-1 hour pt-2">10AM</div>
-        <textarea class="col-10 plan" id="scheduleInput"></textarea>
+        <textarea class="col-10 plan" id="10"></textarea>
         <button class="col-1 saveBtn">save</button>
       </div>
       <!--11am-->
       <div class="row time-block" id="11">
         <div class="col-1 hour pt-2">11AM</div>
-        <textarea class="col-10 plan" id="scheduleInput"></textarea>
+        <textarea class="col-10 plan" id="11"></textarea>
         <button class="col-1 saveBtn">save</button>
       </div>
       <!--12pm-->
       <div class="row time-block" id="12">
         <div class="col-1 hour pt-2" value="12PM">12PM</div>
-        <textarea class="col-10 plan" id="scheduleInput"></textarea>
+        <textarea class="col-10 plan" id="12"></textarea>
         <button class="col-1 saveBtn">save</button>
       </div>
       <!--1pm-->
       <div class="row time-block" id="13">
         <div class="col-1 hour pt-2">1PM</div>
-        <textarea class="col-10 plan" id="scheduleInput"></textarea>
+        <textarea class="col-10 plan" id="13"></textarea>
         <button class="col-1 saveBtn">save</button>
       </div>
       <!--2pm-->
       <div class="row time-block" id="14">
         <div class="col-1 hour pt-2">2PM</div>
-        <textarea class="col-10 plan" id="scheduleInput"></textarea>
+        <textarea class="col-10 plan" id="14"></textarea>
         <button class="col-1 saveBtn">save</button>
       </div>
       <!--3pm-->
       <div class="row time-block" id="15">
         <div class="col-1 hour pt-2">3PM</div>
-        <textarea class="col-10 plan" id="scheduleInput"></textarea>
+        <textarea class="col-10 plan" id="15"></textarea>
         <button class="col-1 saveBtn">save</button>
       </div>
       <!--4pm-->
       <div class="row time-block" id="16">
         <div class="col-1 hour pt-2">4PM</div>
-        <textarea class="col-10 plan" id="scheduleInput"></textarea>
+        <textarea class="col-10 plan" id="16"></textarea>
         <button class="col-1 saveBtn">save</button>
       </div>
       <!--5pm-->
       <div class="row time-block" id="17">
         <div class="col-1 hour pt-2">5PM</div>
-        <textarea class="col-10 plan" id="scheduleInput"></textarea>
+        <textarea class="col-10 plan" id="17"></textarea>
         <button class="col-1 saveBtn">save</button>
       </div>
     </div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <!--Javascript-->
     <script src="./assets/js/script.js"></script>
   </body>
 </html>
