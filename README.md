@@ -26,6 +26,8 @@ This web application is an electronic planner for day-to-day use. Users are able
 
 <h2> Deploy Link </h2>
 
+[Deploy Link](https://lisatle.github.io/Daily-Planner/)
+
 <h2> Screenshots </h2>
 
 ![emptyWebpage](/assets/images/screenshot.PNG)
